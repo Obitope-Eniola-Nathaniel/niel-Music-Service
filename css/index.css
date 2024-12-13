@@ -11,6 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    width: 100%;
 }
 
 .logo {
@@ -55,15 +56,35 @@ ul li a:hover {
     padding: 0 10px;
 }
 
-/* img brang */
+.social-icon {
+    margin-right: 30px;
+}
 
+/* mobile first */
+/* img brang */
 .img-brand {
     width: 80%;
     height: 80%;
-    margin-left: 56px;
-    margin-right: 56px;
+    /* margin-left: 56px;
+    margin-right: 56px; */
+    margin: 0 auto;
+    border: 2px solid black;
 }
 
+.brand-div {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.content1 {
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.section1 {
+    width: 100%;
+    border: 2px solid black;
+}
 
 @media (max-width: 768px) {
     .checkbtn {
@@ -114,12 +135,44 @@ ul li a:hover {
 @media (min-width: 768px) {
     .brand-div {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    /* .img-brand-container {
+        width: 500px;
+    } */
+
     .img-brand {
+        width: 500px;
+        height: 500px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .content1 {
         width: 50%;
-        height: 50%;
-        /* margin-left: 56px;
-        margin-right: 56px; */
+    }
+
+
+
+    /* section2 */
+    .section2, .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
     }
 }
