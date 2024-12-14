@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 nav {
@@ -10,7 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     width: 100%;
 }
 
@@ -63,17 +64,16 @@ ul li a:hover {
 /* mobile first */
 /* img brang */
 .img-brand {
-    width: 80%;
-    height: 80%;
-    /* margin-left: 56px;
-    margin-right: 56px; */
-    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+   margin: 0 auto;
     border: 2px solid black;
 }
 
 .brand-div {
-    width: 100%;
+    width: 80%;
     border: 2px solid black;
+    margin: 0 auto;
 }
 
 .content1 {
@@ -84,6 +84,10 @@ ul li a:hover {
 .section1 {
     width: 100%;
     border: 2px solid black;
+}
+
+.section2-a {
+    padding: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -123,10 +127,15 @@ ul li a:hover {
     /* social Icon */
     .social-icon i {
         padding: 0;
+        font-size: 20px;
     }
 
     .logo {
         margin-left: 0;
+    }
+
+    .img-logo {
+        width: 80px;
     }
 
 }
