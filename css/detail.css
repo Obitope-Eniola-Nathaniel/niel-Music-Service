@@ -1,0 +1,21 @@
+#main {
+    width: 70%;
+    margin: 0 auto;
+    border: 0px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.detail_container, .image_container {
+    display: inline-block;
+    width: 40%;
+    margin: 0 20px;
+    /* border: 2px solid #000; */
+}
+
+.image_container {
+    width: 35%;
+}

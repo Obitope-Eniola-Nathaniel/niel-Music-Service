@@ -1,0 +1,15 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.img-section-container {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

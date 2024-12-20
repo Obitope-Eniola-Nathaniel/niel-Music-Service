@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Template</title>
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+    <nav>
+       <input type="checkbox" id="check">
+       <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+       </label>
+       <label for="" class="logo">
+            <img src="images/niel6.png" alt="" class="img-logo">
+       </label>
+       <ul class="nav-list">
+            <li>
+                <a href="#" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#" class="active">About Us</a>
+            </li>
+            <li>
+                <a href="#" class="active">Shop</a>
+            </li>
+             <li>
+                <a href="#" class="active">Our Clients</a>
+            </li>
+            <li>
+                <a href="#" class="active">Contact Us</a>
+            </li>
+       </ul>
+       <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+       </div>
+       
+    </nav>
+       	
+    <!-- Main Content Table -->
+    <main>
+        <section id="main">
+            <img src="images/logo.png" width="100px" height="100px" alt="Logo"/>
+            <form class="form_user_details">
+                <fieldset>
+                    <legend>User Personal Detail</legend>
+                        <label for="title"> Title </label> 
+                        <select id="title" name="title">
+                            <option> Mr.</option>
+                            <option> Mrs.</option>
+                            <option> Miss.</option>
+                            <option> Barrister.</option>
+                        </select>
+
+                        <label for="surname"> Surname </label> 
+                        <input type="text" id="surname" name="surname" />
+                        <label for="othername"> Othername </label> 
+                        <input type="text" id="othername" name="Othername" />
+                        <label> Gender </label>
+                        <div class="gender_format">
+                            <input type="radio" id="gender1" name="gender" value="Female" />
+                            <label for="gender1" class="gender"> Female </label>
+                            <input type="radio" id="gender" name="gender" value="Male" />
+                            <label for="gender" class="gender"> Male </label>
+                        </div>
+                        
+                        <label for="phone"> Phone Number </label> 
+                        <input type="tel" id="phone" name="phone" />
+                        <label for="email"> Email Address </label> 
+                        <input type="email" id="email" name="email" />
+                </fieldset>
+            </form>	
+
+            <form class="form_instrument_details">
+                <fieldset>
+                    <legend align="center">Instrument Order Information </legend>
+                    <label> Food Name </label> 
+                    <select id="title" name="title">
+                        <option> Amala & Ewedu</option>
+                        <option> Akara & Bread.</option>
+                        <option> Pounded Yam, Egusi & Eja Nla</option>
+                    </select>
+                    <label for="qty"> Quantity </label> 
+                    <input type="number" id="qty" name="qty" />
+                    <label> Selling Price </label> 
+                    <input type="text" id="price" name="price" />
+                    <label> Discount 5% </label> 
+                    <input type="text" id="discount" name="discount" />
+                    <label> Total Amount </label> 
+                    <input type="text" id="total" name="total" readonly />
+                </fieldset>
+            </form>
+            <img src="images/logo.png" width="100px" height="100px" alt="Logo"/>		
+        </section>
+
+        <section class="order">
+            <a href="confirm.html">
+                <input type="button" value="Place Order" />
+            </a>
+        </section>   
+    </main>
+
+    <footer class="footer">
+        <div class="footer-home">
+            <div class="footer-section">
+            <div class="footer-image-container">
+                <img src="images/niel6.png" alt="" height="100px" width="100px" class="footer-image">
+                <p>Music Is The Harmony Of Nature</p>
+                <div class="social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div>
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <ol>Home</ol>
+                    <ol>Shop</ol>
+                    <ol>About Us</ol>
+                    <ol>Contact</ol>
+                </ul>
+            </div>
+            <div>
+                <h3>Quick Link</h3>
+                <ul class="footer-links">
+                    <ol>Home</ol>
+                    <ol>Shop</ol>
+                    <ol>About Us</ol>
+                    <ol>Contact</ol>
+                </ul>
+            </div>
+            <div>
+                <h3>Work Hours</h3>
+                <p>7 AM - 5 PM, Mon - Sat</p>
+                <p>We are 24/7 Available</p>
+                <button class="btn">Call Us</button>
+            </div>
+            </div>
+    
+            <hr>
+
+            <p>&copy; 2022 Niel Music • All Rights Reserved</p>
+        </div>
+       
+    </footer>
+</body>
+</html>

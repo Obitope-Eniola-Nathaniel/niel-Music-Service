@@ -6,6 +6,7 @@
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -17,23 +18,23 @@
             <i class="fa-solid fa-bars"></i>
        </label>
        <label for="" class="logo">
-            <img src="images/niel6.png" alt="" height="60px" width="60px" class="img-logo">
+            <img src="images/niel6.png" alt="" class="img-logo">
        </label>
-       <ul>
+       <ul class="nav-list">
             <li>
                 <a href="#" class="active">Home</a>
             </li>
             <li>
-                <a href="#" class="active">About Us</a>
+                <a href="about.html" class="active">About Us</a>
             </li>
             <li>
-                <a href="#" class="active">Shop</a>
+                <a href="shop.html" class="active">Shop</a>
             </li>
              <li>
-                <a href="#" class="active">Our Clients</a>
+                <a href="clients.html" class="active">Our Clients</a>
             </li>
             <li>
-                <a href="#" class="active">Contact Us</a>
+                <a href="contact.html" class="active">Contact Us</a>
             </li>
        </ul>
        <div class="social-icon">
@@ -66,63 +67,81 @@
             </div>
         </section>
 
-        <h1> Previous Concert</h1>
+        <h1 class="section2-main-heading"> Previous Concert</h1>
         <section class="section2">
             <div class="section2-a">
-                <h2>Worship Concert @ Abuja Nigeria</h2>
-                <video controls width="80%" height="400px" autoplay muted>
+                <h2  class="video-heading">Worship Concert @ Abuja Nigeria</h2>
+                <video class="concert-video" controls autoplay muted>
                     <source src="videos/drummer.mp4" type="video/mp4"/>
                 </video>
             </div>
 
             <div  class="section2-b">
-                <h2>Worship Concert @ Lagos Nigeria</h2>
-                <video controls width="80%" height="400px" autoplay muted>
+                <h2 class="video-heading">Worship Concert @ Lagos Nigeria</h2>
+                <video class="concert-video" controls  autoplay muted>
                     <source src="videos/singer.mp4" type="video/mp4"/>
                 </video>
             </div>
         </section>
 
+        
+        <h1 class="section3-main-heading"> Our Musician </h1>
         <section class="section3">
             <div>
-                <h4>John the Guitarist</h4>
-				<img src="images/musician1.jpg" alt="" width="80%" height="400px">
+                <h4 class="musician-heading">John the Guitarist</h4>
+				<img src="images/musician1.jpg" alt="" width="100%" height="400px">
             </div>
             <div>
-                <h4>Lola Sax</h4>
-				<img src="images/lady.jpg" alt="" width="80%" height="400px">
+                <h4 class="musician-heading">Lola Sax</h4>
+				<img src="images/lady.jpg" alt="" width="100%" height="400px">
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div>
-          <img src="images/niel6.png" alt="" height="60" width="60">
-          <p>Music Is The Harmony Of Nature</p>
+        <div class="footer-home">
+            <div class="footer-section">
+            <div class="footer-image-container">
+                <img src="images/niel6.png" alt="" height="100px" width="100px" class="footer-image">
+                <p>Music Is The Harmony Of Nature</p>
+                <div class="social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div>
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <ol>Home</ol>
+                    <ol>Shop</ol>
+                    <ol>About Us</ol>
+                    <ol>Contact</ol>
+                </ul>
+            </div>
+            <div>
+                <h3>Quick Link</h3>
+                <ul class="footer-links">
+                    <ol>Home</ol>
+                    <ol>Shop</ol>
+                    <ol>About Us</ol>
+                    <ol>Contact</ol>
+                </ul>
+            </div>
+            <div>
+                <h3>Work Hours</h3>
+                <p>7 AM - 5 PM, Mon - Sat</p>
+                <p>We are 24/7 Available</p>
+                <button class="btn">Call Us</button>
+            </div>
+            </div>
+    
+            <hr>
+
+            <p>&copy; 2022 Niel Music • All Rights Reserved</p>
         </div>
-        <div>
-            <h3>Navigation</h3>
-            <ul class="footer-links">
-                <ol>Home</ol>
-                <ol>Shop</ol>
-                <ol>About Us</ol>
-                <ol>Contact</ol>
-            </ul>
-        </div>
-        <div>
-            <h3>Quick Link</h3>
-            <ul class="footer-links">
-                <ol>Home</ol>
-                <ol>Shop</ol>
-                <ol>About Us</ol>
-                <ol>Contact</ol>
-            </ul>
-        </div>
-         <div>
-            <h3>Work Hours</h3>
-            <p>7 AM - 5 PM, Mon - Sat</p>
-            <button>Call Us</button>
-        </div>
+       
     </footer>
 </body>
 </html>

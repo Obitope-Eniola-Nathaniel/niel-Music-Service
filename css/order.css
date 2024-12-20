@@ -1,0 +1,72 @@
+#main{
+    max-width: 80%;
+    padding: 30px;
+}
+
+.form_user_details, .form_instrument_details {
+    width: 50%;
+    margin: 10px;
+    font-size: 15px;
+}
+
+input, select, option, .gender_format {
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-size: inherit;
+    height: 25px;
+}
+
+fieldset {
+    height: 350px;
+    padding: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
+
+.gender {
+    display: inline-block;
+}
+
+.order {
+    text-align: center;
+    margin: 20px auto;
+}
+/* 
+.order a {
+    text-decoration: none;
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+} */
+
+input[type="button"] {
+    margin: 0 auto;
+    width: auto;
+}
+
+
+@media (max-width: 768px) {
+    #main {
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+    .form_user_details, .form_instrument_details {
+        min-width: 100%;
+        margin: 10px;
+        font-size: 15px;
+    }
+}
