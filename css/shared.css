@@ -6,8 +6,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     /* box-sizing: border-box; */
+    font-family: "Edu AU VIC WA NT Hand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav {
@@ -17,6 +21,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
 }
 
 .logo {
@@ -47,7 +54,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: lightgreen;
+    color: #000;
 }
 
 .checkbtn {
