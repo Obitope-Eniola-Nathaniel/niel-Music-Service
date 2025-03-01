@@ -3,8 +3,9 @@
     padding: 30px;
 }
 
-.form_user_details, .form_instrument_details {
+.form_user_details {
     width: 50%;
+    height: 70%;
     margin: 10px;
     font-size: 15px;
 }
@@ -13,14 +14,13 @@ input, select, option, .gender_format {
     display: inline-block;
     width: 60%;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-size: inherit;
-    height: 25px;
 }
 
 fieldset {
-    height: 350px;
-    padding: 10px;
+    height: 600px;
+    padding: 20px;
 }
 
 label {
